@@ -1,0 +1,72 @@
+body{
+	font-family: 'Inconsolata', monospace;
+}
+
+h1{
+	text-align: center;
+	font-size: 300%;
+}
+
+title{
+	position: absolute;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row{
+	width: 100%;
+}
+
+section{
+	position: relative;
+	border: 1px solid black;
+	padding: 30px 10px 10px 10px;
+	height: 350px;
+	margin: 10px;
+	background-color: #aaaaaa;
+}
+
+section h2{
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 0;
+	padding: 5px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #dd4433;
+}
+
+#beef{
+	background-color: #dd1166;
+}
+
+#bacon{
+	background-color: #6644bb;
+}
+
+#chicken{
+	background-color: #229922;
+}
+
+@media (min-width: 992px){
+	.col-lg-3{
+		width: 33.33%;
+		float: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-2{
+		width: 50%;
+		float: left;
+	}
+
+	.col-md-1{
+		width: 100%;
+		float: left;
+	}
+}
